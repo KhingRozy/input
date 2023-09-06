@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Contact from "./components/contact";
+import About from "./components/about";
+import Mtn from "./components/mtn";
+import Qsquare from "./components/qsquare";
+import Button from "./components/button";
+import Schoolbackend from "./components/schoolbackend";
 
-function App() {
+// import QSquare from "./components/QSquare";
+// import computer from "./components/computer";
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section>
+      {/* <About /> */}
+      {/* <Contact /> */}
+      {/* <Mtn /> */}
+      {/* <QSquare /> */}
+      {/* <computer /> */}
+      <Qsquare />
+      <Schoolbackend />
+    </section>
   );
 }
-
-export default App;

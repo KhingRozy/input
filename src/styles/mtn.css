@@ -1,0 +1,15 @@
+.mtn-main {
+  border-radius: 20%;
+  background-color: rgb(20, 18, 18);
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  /* position: absolute;
+  top: 133px;
+  left: 20px;
+  right: 10px; */
+}
+
+.mtn {
+  text-align: right;
+}
